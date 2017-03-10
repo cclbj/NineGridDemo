@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B49E9861E72931500344B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B49E9851E72931500344B32 /* AppDelegate.swift */; };
+		9B49E9881E72931500344B32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B49E9871E72931500344B32 /* ViewController.swift */; };
+		9B49E98B1E72931500344B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B49E9891E72931500344B32 /* Main.storyboard */; };
+		9B49E98D1E72931500344B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B49E98C1E72931500344B32 /* Assets.xcassets */; };
+		9B49E9901E72931500344B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B49E98E1E72931500344B32 /* LaunchScreen.storyboard */; };
+		9B49E9981E7293A900344B32 /* LCGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B49E9971E7293A900344B32 /* LCGridView.swift */; };
+		9B49E99A1E72965200344B32 /* LCGridBgPropertyDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B49E9991E72965200344B32 /* LCGridBgPropertyDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B49E9821E72931500344B32 /* NineGridDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NineGridDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B49E9851E72931500344B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B49E9871E72931500344B32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B49E98A1E72931500344B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B49E98C1E72931500344B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B49E98F1E72931500344B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B49E9911E72931500344B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B49E9971E7293A900344B32 /* LCGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCGridView.swift; sourceTree = "<group>"; };
+		9B49E9991E72965200344B32 /* LCGridBgPropertyDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCGridBgPropertyDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B49E97F1E72931500344B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B49E9791E72931500344B32 = {
+			isa = PBXGroup;
+			children = (
+				9B49E9841E72931500344B32 /* NineGridDemo */,
+				9B49E9831E72931500344B32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B49E9831E72931500344B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B49E9821E72931500344B32 /* NineGridDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B49E9841E72931500344B32 /* NineGridDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9B49E9851E72931500344B32 /* AppDelegate.swift */,
+				9B49E9871E72931500344B32 /* ViewController.swift */,
+				9B49E9891E72931500344B32 /* Main.storyboard */,
+				9B49E98C1E72931500344B32 /* Assets.xcassets */,
+				9B49E98E1E72931500344B32 /* LaunchScreen.storyboard */,
+				9B49E9911E72931500344B32 /* Info.plist */,
+				9B49E9971E7293A900344B32 /* LCGridView.swift */,
+				9B49E9991E72965200344B32 /* LCGridBgPropertyDelegate.swift */,
+			);
+			path = NineGridDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B49E9811E72931500344B32 /* NineGridDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B49E9941E72931500344B32 /* Build configuration list for PBXNativeTarget "NineGridDemo" */;
+			buildPhases = (
+				9B49E97E1E72931500344B32 /* Sources */,
+				9B49E97F1E72931500344B32 /* Frameworks */,
+				9B49E9801E72931500344B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NineGridDemo;
+			productName = NineGridDemo;
+			productReference = 9B49E9821E72931500344B32 /* NineGridDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B49E97A1E72931500344B32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "early bird international";
+				TargetAttributes = {
+					9B49E9811E72931500344B32 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = A9ZY4654BA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9B49E97D1E72931500344B32 /* Build configuration list for PBXProject "NineGridDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B49E9791E72931500344B32;
+			productRefGroup = 9B49E9831E72931500344B32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B49E9811E72931500344B32 /* NineGridDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B49E9801E72931500344B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B49E9901E72931500344B32 /* LaunchScreen.storyboard in Resources */,
+				9B49E98D1E72931500344B32 /* Assets.xcassets in Resources */,
+				9B49E98B1E72931500344B32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B49E97E1E72931500344B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B49E9881E72931500344B32 /* ViewController.swift in Sources */,
+				9B49E9861E72931500344B32 /* AppDelegate.swift in Sources */,
+				9B49E9981E7293A900344B32 /* LCGridView.swift in Sources */,
+				9B49E99A1E72965200344B32 /* LCGridBgPropertyDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B49E9891E72931500344B32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B49E98A1E72931500344B32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B49E98E1E72931500344B32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B49E98F1E72931500344B32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B49E9921E72931500344B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B49E9931E72931500344B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B49E9951E72931500344B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A9ZY4654BA;
+				INFOPLIST_FILE = NineGridDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greatchef.NineGridDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9B49E9961E72931500344B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A9ZY4654BA;
+				INFOPLIST_FILE = NineGridDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.greatchef.NineGridDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B49E97D1E72931500344B32 /* Build configuration list for PBXProject "NineGridDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B49E9921E72931500344B32 /* Debug */,
+				9B49E9931E72931500344B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B49E9941E72931500344B32 /* Build configuration list for PBXNativeTarget "NineGridDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B49E9951E72931500344B32 /* Debug */,
+				9B49E9961E72931500344B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B49E97A1E72931500344B32 /* Project object */;
+}
